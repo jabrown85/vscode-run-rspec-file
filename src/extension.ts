@@ -36,7 +36,7 @@ function getTerminal() {
 }
 
 function getFilename() {
-  return vscode.window.activeTextEditor.document.uri.path;
+  return vscode.window.activeTextEditor.document.uri.fsPath;
 }
 
 function getActiveLine() {
